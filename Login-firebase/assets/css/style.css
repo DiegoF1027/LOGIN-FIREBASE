@@ -1,0 +1,94 @@
+/* Estilos para el formulario de inicio de sesión */
+.container-form {
+  background-color: #fff !important;
+  border-radius: 8px !important;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1) !important;
+  padding: 30px !important;
+  text-align: center !important; /* Centrar el contenido */
+}
+
+h3 {
+  color: #1877f2 !important; /* Color azul de Facebook */
+}
+
+.form-floating input {
+  border-radius: 10px !important;
+  border: 2px solid #dcdcdc !important; /* Aumentar el grosor del borde */
+  padding: 10px !important;
+  margin-bottom: 10px !important; /* Espacio entre los inputs */
+  width: 100% !important; /* Hacer que los inputs ocupen todo el ancho */
+  box-sizing: border-box !important; /* Incluir el padding en el ancho */
+}
+
+.form-contraseña{
+  border-radius: 10px !important;
+  border: 2px solid #dcdcdc !important; /* Aumentar el grosor del borde */
+  padding: 10px !important;
+  margin-bottom: 10px !important; /* Espacio entre los inputs */
+  width: 100% !important; /* Hacer que los inputs ocupen todo el ancho */
+  box-sizing: border-box !important; /* Incluir el padding en el ancho */
+}
+
+.form-floating input#user {
+  background-color: white !important; /* Color de fondo más claro */
+}
+
+.input-group {
+  position: relative !important;
+  margin-bottom: 20px !important; /* Espacio extra entre el input de contraseña y el botón */
+}
+
+.input-group button {
+  border: none !important;
+  background: transparent !important;
+  position: absolute !important;
+  top: 39% !important;
+  right: 10px !important;
+  transform: translateY(-50%) !important;
+}
+
+.btn-primary,
+.btn-secondary {
+  width: 100% !important; /* Hacer que los botones ocupen todo el ancho */
+  margin-bottom: 10px !important; /* Espacio entre los botones */
+}
+
+.btn-primary {
+  background-color: #1877f2 !important; /* Color azul de Facebook */
+  border-color: #1877f2 !important; /* Color del borde de Facebook */
+}
+
+.btn-primary:hover {
+  background-color: #166fe5 !important; /* Color de botón azul más oscuro */
+  border-color: #166fe5 !important;
+}
+
+.btn-secondary {
+  background-color: #eceff5 !important; /* Color de fondo de botón secundario similar a Facebook */
+  color: #1877f2 !important; /* Color del texto similar al de Facebook */
+  border-color: #eceff5 !important;
+}
+
+.btn-secondary:hover {
+  background-color: #d4d8e1 !important; /* Color de fondo de botón secundario en hover */
+}
+
+.link-success {
+  color: #1877f2 !important; /* Color del enlace similar a Facebook */
+}
+
+.link-success:hover {
+  text-decoration: none !important; /* Quitar subrayado en hover */
+}
+
+/* Cambiar el color del icono del ojo */
+#btn-password img {
+  filter: invert(45%) sepia(68%) saturate(2698%) hue-rotate(194deg) brightness(91%) contrast(88%) !important;
+}
+
+/* Estilos adicionales para mejorar la apariencia en dispositivos móviles */
+@media (max-width: 576px) {
+  .container-form {
+    padding: 20px !important;
+  }
+}
